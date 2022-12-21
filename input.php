@@ -79,24 +79,24 @@ if (isset($_GET['id'])) {
 	<div class="container">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
-				<h2 class="text-center">Add Student</h2>
+				<h2 class="text-center">Thêm sinh viên</h2>
 			</div>
 			<div class="panel-body">
 				<form method="post">
 					<div class="form-group">
-					  <label for="usr">Name:</label>
+					  <label for="usr">Họ và tên:</label>
 					  <input type="number" name="id" value="<?=$id?>" style="display: none;">
 					  <input required="true" type="text" class="form-control" id="usr" name="fullname" value="<?=$s_fullname?>">
 					</div>
 					<div class="form-group">
-					  <label for="birthday">Age:</label>
+					  <label for="birthday">MSSV:</label>
 					  <input type="number" class="form-control" id="age" name="age" value="<?=$s_age?>">
 					</div>
 					<div class="form-group">
-					  <label for="address">Address:</label>
+					  <label for="address">Phân công công việc:</label>
 					  <input type="text" class="form-control" id="address" name="address" value="<?=$s_address?>">
 					</div>
-					<button class="btn btn-success">Save</button>
+					<button class="btn btn-success">THÊM</button>
 				</form>
 			</div>
 		</div>
