@@ -4,7 +4,7 @@ require_once ('dbhelp.php');
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Student Management</title>
+	<title>Quản lí sinh viên</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
@@ -32,8 +32,8 @@ require_once ('dbhelp.php');
 						<tr>
 							<th>STT</th>
 							<th>Họ & Tên</th>
-							<th>Tuổi</th>
-							<th>Địa chỉ</th>
+							<th>MSSV</th>
+							<th>Phân công công việc</th>
 							<th width="60px"></th>
 							<th width="60px"></th>
 						</tr>
@@ -62,7 +62,7 @@ foreach ($studentList as $std) {
 ?>
 					</tbody>
 				</table>
-				<button class="btn btn-success" onclick="window.open('input.php', '_self')">Add Student</button>
+				<button class="btn btn-success" onclick="window.open('input.php', '_self')">Thêm sinh viên</button>
 			</div>
 		</div>
 	</div>
