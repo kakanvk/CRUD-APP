@@ -16,12 +16,21 @@ require_once ('dbhelp.php');
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	
+	<style>
+		.btn-success{
+			transition: all 0.2s;
+		}
+		.btn-success:hover{
+			transform: scale(0.98);
+		}
+	</style>
 </head>
 <body>
 	<div class="container">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
-				Quản lý thông tin sinh viên
+				<h1>Quản lý thông tin sinh viên</h1>
 				<form method="get">
 					<input type="text" name="s" class="form-control" style="margin-top: 15px; margin-bottom: 15px;" placeholder="Tìm kiếm theo tên">
 				</form>
