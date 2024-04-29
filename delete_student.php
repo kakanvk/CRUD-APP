@@ -6,6 +6,6 @@ if (isset($_POST['id'])) {
 	$sql = 'delete from student where id = '.$id;
 	execute($sql);
 
-	echo 'Xoá sinh viên thành công';
-  123
+	echo 'Xoá thành công';
+	123
 }
