@@ -19,7 +19,7 @@ function execute($sql) {
  * su dung cho lenh select => tra ve ket qua
  */
 function executeResult($sql) {
-	//create connection toi database
+	//create connection toi database 123
 	$conn = mysqli_connect(HOST, USERNAME, PASSWORD, DATABASE);
 
 	//query
