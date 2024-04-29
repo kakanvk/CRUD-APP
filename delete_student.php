@@ -6,5 +6,5 @@ if (isset($_POST['id'])) {
 	$sql = 'delete from student where id = '.$id;
 	execute($sql);
 
-	echo 'Xoá thành công';
+	echo 'Xoá thành công';123
 }
